@@ -1,5 +1,4 @@
 -- :help option-list (to search info about commands below)
-
 local set = vim.opt
 
 set.expandtab = true
