@@ -38,10 +38,12 @@ local lsp_flags = {
 }
 
 require'lspconfig'.cssls.setup {
+  on_attach = on_attach,
   capabilities = capabilities,
 }
 
-require'lspconfig'.cssls.setup {
+require'lspconfig'.html.setup {
+  on_attach = on_attach,
   capabilities = capabilities,
 }
 
