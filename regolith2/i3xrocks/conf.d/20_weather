@@ -1,0 +1,4 @@
+# Displays weather
+[weather]
+command=curl wttr.in/Fernando+De+La+Mora?format=1
+interval=60

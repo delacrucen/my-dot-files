@@ -1,0 +1,39 @@
+!regolith.look.path: /usr/share/regolith-look/dracula
+
+## Pair this config with Dracula theme
+
+# App gap size
+i3-wm.gaps.inner.size: 5
+
+# Terminal font
+gnome.terminal.font: JetBrainsMono Nerd Font 14
+
+# Bar position 
+i3-wm.bar.position: top
+
+# App font family
+gtk.font_name: FreeSans Medium 12
+
+# App border color
+i3-wm.client.focused.color.child_border: #11f1f1
+
+# App border color when workspace not focused/active - currently set on dracula's default gray
+i3-wm.client.focused_inactive.color.border: color_green
+i3-wm.client.focused_inactive.color.background: color_base02
+i3-wm.client.focused_inactive.color.text: color_base0
+i3-wm.client.focused_inactive.color.indicator: color_base02
+i3-wm.client.focused_inactive.color.child_border: color_base03
+
+# Workspace color when selected
+i3-wm.bar.workspace.focused.background.color: #56acd8
+i3-wm.bar.workspace.active.border.color: #56acd8
+i3-wm.bar.workspace.focused.border.color: #56acd8
+
+# Workspace color when not selected
+i3-wm.bar.workspace.active.background.color: #397390
+i3-wm.bar.workspace.active.border.color: #397390
+
+
+for_window [class=.*] border normal 1
+
+regolith.look.path: /usr/share/regolith-look/dracula
