@@ -1,5 +1,0 @@
-# Displays current song status
-[mpris]
-command=python3 /home/mauridevs/.config/regolith2/i3xrocks/conf.d/i3blocks_mpris.py -c /home/mauridevs/.config/regolith2/i3xrocks/conf.d/config.json
-interval=persist
-markup=pango
