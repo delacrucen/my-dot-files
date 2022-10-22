@@ -1,12 +1,17 @@
-require('mappings')
-require('settings')
-require('nvim-tree-config')
-require('lsp-config.language-servers')
-require('lsp-config.nvim-cmp')
-vim.cmd('colorscheme kanagawa')
-
---leader key set to space and then set to space+e
-vim.g.mapleader = ' '
-local map = vim.api.nvim_set_keymap
-local opts = { noremap = true, silent = true }
-map('n', '<leader>e', ':NvimTreeToggle<CR>', opts)
+require("mauri.plugins-setup")
+require("mauri.core.options")
+require("mauri.core.keymaps")
+require("mauri.core.colorscheme")
+require("mauri.plugins.comment")
+require("mauri.plugins.nvim-tree")
+require("mauri.plugins.lualine")
+require("mauri.plugins.telescope")
+require("mauri.plugins.nvim-cmp")
+require("mauri.plugins.lsp.mason")
+require("mauri.plugins.lsp.lspsaga")
+require("mauri.plugins.lsp.lspconfig")
+require("mauri.plugins.lsp.null-ls")
+require("mauri.plugins.autopairs")
+require("mauri.plugins.treesitter")
+require("mauri.plugins.gitsigns")
+require("mauri.plugins.colorizer")
