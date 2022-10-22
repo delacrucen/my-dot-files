@@ -6,9 +6,14 @@ local keymap = vim.keymap -- for conciseness
 ---------------------
 -- General Keymaps
 ---------------------
+-- save file
+keymap.set("n", "<leader>sf", ":w<CR>")
 
 -- use jk to exit insert mode
 keymap.set("i", "jk", "<ESC>")
+
+-- use space + js to execute the current file to nodejs
+keymap.set("n", "<leader>js", ":w !node<CR>")
 
 -- clear search highlights
 keymap.set("n", "<leader>nh", ":nohl<CR>")
