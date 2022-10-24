@@ -39,6 +39,12 @@ keymap.set("n", "<leader>tp", ":tabp<CR>") --  go to previous tab
 ----------------------
 -- Plugin Keybinds
 ----------------------
+-- tmux-navigator
+-- <ctrl-h> => Left
+-- <ctrl-j> => Down
+-- <ctrl-k> => Up
+-- <ctrl-l> => Right
+-- <ctrl-\> => Previous split
 
 -- vim-maximizer
 keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>") -- toggle split window maximization
