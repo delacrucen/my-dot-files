@@ -102,6 +102,9 @@ return packer.startup(function(use)
 	-- color highlighting
 	use("norcalli/nvim-colorizer.lua")
 
+	-- leap
+	use("ggandor/leap.nvim")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
