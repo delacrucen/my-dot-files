@@ -102,7 +102,7 @@ return packer.startup(function(use)
 	-- color highlighting
 	use("norcalli/nvim-colorizer.lua")
 
-	-- leap
+	-- motion enhancer
 	use("ggandor/leap.nvim")
 
 	if packer_bootstrap then

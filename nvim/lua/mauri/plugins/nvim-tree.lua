@@ -8,7 +8,7 @@ end
 vim.g.loaded = 1
 vim.g.loaded_netrwPlugin = 1
 
--- change color for arrows in tree to light blue
+-- change color for arrows in tree to "goldish"
 vim.cmd([[ highlight NvimTreeIndentMarker guifg=#C8C093 ]])
 
 -- configure nvim-tree
