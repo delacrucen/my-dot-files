@@ -8,6 +8,8 @@
   `~/.config/`
 - regolith2
   `~/.config/`
+- regolith
+  `/usr/share/`
 - tmux
   `~/`
 - zsh
