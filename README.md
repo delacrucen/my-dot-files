@@ -14,3 +14,5 @@
   `~/`
 - zsh
   `~/`
+- audio-device-switch.sh
+  `anywhere`
